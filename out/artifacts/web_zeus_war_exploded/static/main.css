@@ -1,0 +1,47 @@
+
+body, html {
+    height: 100%;
+}
+body {
+
+    font-size: 16px;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.6;
+
+    overflow-x: hidden;
+}
+
+.h-home {
+    color: cadetblue;
+    font-size: 30px;
+}
+
+.t-mysite span {
+    position: relative;
+    top: 5px;
+    font-size: 25px;
+
+}
+.hero-image {
+    /* The image used */
+    background-image: url('img/maxresdefault.jpg');
+    width: 100%;
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.t-table {
+
+}
